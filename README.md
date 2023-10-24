@@ -47,9 +47,12 @@ Armazenamento somente para questão de controle, seus dados estão protegidos.
 
 Certifique-se de ter os seguintes requisitos instalados em seu ambiente de desenvolvimento:
 
-- Python 3.x
-- Biblioteca para criação de formulários (insira o nome da biblioteca, se aplicável)
-- Outras dependências (caso existam)
+- Python 3.11/3.12
+- Biblioteca utilizada para armazenamento dos dados: <b>pandas</b>
+- Outras bibliotecas:
+    - os
+    - datetime
+    - time
 
 ## Como Usar
 
@@ -99,24 +102,24 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <!-- <a href="https://github.com/samarabm_s">
-         <img src="" width="100px;" alt="Foto da Samara Barbosa"/><br> -->
+          <a href="https://github.com/Samara122002">
+         <img src="https://avatars.githubusercontent.com/u/144072715?v=4" width="100px;" alt="Foto da Samara Barbosa"/><br>
         <sub>
           <b>Samara Barbosa</b>
         </sub>
       </a>
     </td>
   <td align="center">
-      <!-- <a href="https://github.com/samuelgalvao">
-        <img src="" width="100px;" alt="Foto do Samuel Galvão"/><br> -->
+      <a href="https://github.com/samgomes0305">
+        <img src="https://avatars.githubusercontent.com/u/143973237?v=4" width="100px;" alt="Foto do Samuel Galvão"/><br>
         <sub>
           <b>Samuel Galvão</b>
         </sub>
       </a>
     </td>
   <td align="center">
-      <!-- <a href="https://github.com/handdsonamorim">
-        <img src="" width="100px;" alt="Foto do Handdson Amorim"/><br> -->
+          <a href="https://github.com/handdson">
+        <img src="https://avatars.githubusercontent.com/u/145804411?v=4" width="100px;" alt="Foto do Handdson Amorim"/><br>
         <sub>
           <b>Handdson Amorim</b>
         </sub>
