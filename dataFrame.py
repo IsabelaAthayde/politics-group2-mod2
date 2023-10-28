@@ -148,12 +148,15 @@ class QuestionsController:
                 return
 
             # Converte as respostas
-            if result == 1:
-                result = "Sim"
-            elif result == 2:
-                result = "Não"
-            elif result == 3:
-                result = "Não sei responder"
+            match result:
+                case 1:
+                    result = "Sim"
+                case 2:
+                    result = "Não"
+                case 3:
+                    result = "Não sei responder"
+                case _:
+                    print("Opção inválida")
 
             # Envia todas as respostas para o cache
             if key in self.__questions.keys():
