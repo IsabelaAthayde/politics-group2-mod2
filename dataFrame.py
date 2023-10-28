@@ -98,7 +98,7 @@ class ArquiveController():
 
 class User():
     def __init__(self):
-        #Recebe os dados do usuário
+        # Recebe os dados do usuário
         self.__age = int(input("\nInforme qual é a sua idade:\n(para sair digite 0) -->  "))
 
         if self.__age == 0:
@@ -107,7 +107,7 @@ class User():
         self.__gender = input("\nInforme qual é o seu genero [Feminino/Masculino/Outros]: ").capitalize()
         self.__neighborhood = input("\nInforme seu Bairro: ").capitalize()
 
-    #retorna os dados dos usuário
+    # Retorna os dados dos usuário
     def get_age(self) -> int :
         return self.__age
     
@@ -118,7 +118,7 @@ class User():
         return self.__neighborhood
 
 
-#classe que controla as questões
+# Classe que controla as questões
 class QuestionsController():
     def __init__(self, cache : dict, questions : dict, user : User ):
         self.__cache = cache
@@ -162,7 +162,7 @@ def Application():
     cache = {}
     user = User()
 
-    #Envia os do usuário para o armazenamento cache
+    #Envia os dados do usuário para o armazenamento cache
     cache = {
         'age': user.get_age(),
         'gender': user.get_gender(),
