@@ -11,21 +11,21 @@ buscando compreender mais a fundo as opiniões e visões de indivíduos
 em temas conflitantes.
 
 ## Status do projeto
-— Em andamento
+— Completo
 
 ### Checklist do Projeto
 
-- [ ] Ter todo o código comentado.
+- [X] Ter todo o código comentado.
 - [X] Implementar a lógica para sair do loop quando a idade for digitada como 0.
 - [X] Passar a data e a hora para o arquivo CSV formatada como `strftime("%Y-%m-%d %H:%M")`.
-- [ ] Adicionar as opções nas questões, como `[1] Sim [2] Não [3] Não sei responder]`, com números ou sem.
+- [X] Adicionar as opções nas questões, como `[1] Sim [2] Não [3] Não sei responder]`, com números ou sem.
 - [X] Processo de envios CSV deve ser formatado corretamente ao abrir excel.
     - [X] Utilizar a codificação UTF-8 no envio para o CSV para permitir a inclusão de acentos e caracteres especiais, exemplo "ç".
     - [X] Garantir que os dados estejam em celulás separadas
-- [ ] Adicionar uma coluna chamada ou Local, ou Bairro no Data Frame.
-- [ ] Adicionar input para receber o Local/Bairro
-- [ ] Renomear as variáveis, funções para seguir o estilo snake_case.
-- [ ] Implementar a estilização (opcional) com cores e etc, para embelezar o projeto.
+- [X] Adicionar uma coluna chamada ou Local, ou Bairro no Data Frame.
+- [X] Adicionar input para receber o Local/Bairro
+- [X] Renomear as variáveis, funções para seguir o estilo snake_case.
+- [X] Implementar a estilização (opcional) com cores e etc, para embelezar o projeto.
 
 ## Recursos
 
